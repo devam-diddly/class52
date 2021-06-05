@@ -1,0 +1,86 @@
+
+h1 {
+    color: rgb(255, 255, 255);
+    padding-left: 400px;
+}
+/* *{
+    border: solid;
+}
+*/ 
+
+.header *{
+    background-color: #782ea3;
+    display: flex;
+    justify-content: space-between;
+    font-style: oblique;
+    font-family:  BlinkMacSystemFont;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-style: italic;
+    font-family: Franklin Gothic Medium;
+}
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+    font-style: inherit;
+    font-family: Lucida Sans;
+    
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{background-image: url("cube-3319359_960_720.jpg");
+
+}
+
+a:link{
+    color: rgb(114, 216, 82);
+
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+.menu{
+    padding-left: 250px;
+
+}
+
+.menu a{
+    margin-left: 250px;
+
+}
+    
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    opacity: 0;
+}
+
+.item :hover p{
+    opacity: 1;
+
+     
+}
+
+.item :hover img{
+    opacity: 0.333;
+    
+     
+}
